@@ -8,8 +8,24 @@ call plug#end()
 syntax on
 
 colorscheme onehalfdark
+
+" Airline configuration
+
 let g:airline_theme='onehalfdark'
 let g:airline_powerline_fonts=1
+let g:lightline= {
+  \ 'colorscheme' : 'onehalfdark',
+  \ 'active' : {
+  \   'left' :[ [ 'mode', 'paste' ],
+  \             ['gitbranch', 'readonly', 'filename', 'modified'] ]
+  \ },
+  \ 'component_function' : {
+  \   'gitbranch' : 'FugitiveHead'
+  \ },
+  \ }
+
+" Editor configuration
+
 set t_Co=256
 set cursorline
 " lightline
