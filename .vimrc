@@ -1,9 +1,17 @@
+call plug#begin('~/.vim/plugged')
+
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+
+call plug#end()
+
 syntax on
 
-set t_Co=256
-set cursorline
 colorscheme onehalfdark
 let g:airline_theme='onehalfdark'
+let g:airline_powerline_fonts=1
+set t_Co=256
+set cursorline
 " lightline
 " let g:lightline = { 'colorscheme': 'onehalfdark' }
 
