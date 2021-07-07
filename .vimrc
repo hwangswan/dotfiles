@@ -15,6 +15,10 @@ nnoremap <F5> :let _s=@/<Bar>:%s/\s\+$//e<Bar>:let @/=_s<Bar><CR>
 map <C-c> "+y
 map <C-v> "+p
 
+" Highlight current line in Insert mode only.
+autocmd InsertEnter * set cul
+autocmd InsertLeave * set nocul
+
 colorscheme onehalfdark
 
 " Airline configuration
