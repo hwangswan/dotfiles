@@ -7,6 +7,14 @@ call plug#end()
 
 syntax on
 
+" Trim trailing whitespaces by pressing {F5}
+nnoremap <F5> :let _s=@/<Bar>:%s/\s\+$//e<Bar>:let @/=_s<Bar><CR>
+
+" Copy and paste from clipboard.
+" This requires sudo apt-get install vim-gtk
+map <C-c> "+y
+map <C-v> "+p
+
 colorscheme onehalfdark
 
 " Airline configuration
