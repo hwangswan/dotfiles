@@ -2,6 +2,7 @@ call plug#begin('~/.vim/plugged')
 
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
+Plug 'JuliaEditorSupport/julia-vim'
 
 call plug#end()
 
@@ -84,4 +85,3 @@ set tabstop=2
 set softtabstop=2
 set shiftwidth=2
 set colorcolumn=80
-set guifont=DejaVu\ Sans:s12
