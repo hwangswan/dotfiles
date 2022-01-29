@@ -1,8 +1,15 @@
 call plug#begin('~/.vim/plugged')
 
+" Vim airline makes Vim look so cool.
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
+
+" Julia support
 Plug 'JuliaEditorSupport/julia-vim'
+
+" Fuzzy finder
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
 
 call plug#end()
 
