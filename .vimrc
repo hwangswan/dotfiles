@@ -7,9 +7,15 @@ Plug 'vim-airline/vim-airline-themes'
 " Julia support
 Plug 'JuliaEditorSupport/julia-vim'
 
+" Extended C++ support
+Plug 'bfrg/vim-cpp-modern'
+
 " Fuzzy finder
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
+
+" Colorscheme
+Plug 'sainnhe/sonokai'
 
 call plug#end()
 
@@ -27,7 +33,9 @@ map <C-v> "+p
 autocmd InsertEnter * set cul
 autocmd InsertLeave * set nocul
 
-colorscheme onehalfdark
+" Editor's color scheme
+colorscheme sonokai
+let g:sonokai_style = 'maia'
 
 " Airline configuration
 " air-line
@@ -60,9 +68,9 @@ let g:airline_symbols.branch = ''
 let g:airline_symbols.readonly = ''
 let g:airline_symbols.linenr = ''
 
-let g:airline_theme='onehalfdark'
+let g:airline_theme='sonokai'
 let g:lightline= {
-  \ 'colorscheme' : 'onehalfdark',
+  \ 'colorscheme' : 'sonokai',
   \ 'active' : {
   \   'left' :[ [ 'mode', 'paste' ],
   \             ['gitbranch', 'readonly', 'filename', 'modified'] ]
@@ -76,8 +84,6 @@ let g:lightline= {
 
 set t_Co=256
 set cursorline
-" lightline
-" let g:lightline = { 'colorscheme': 'onehalfdark' }
 
 if exists('+termguicolors')
   let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"

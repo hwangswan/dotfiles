@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# Copy new .vimrc
 cp .vimrc ~/.vimrc
 
 # Install vim-plug
