@@ -1,7 +1,6 @@
 #!/bin/bash
 
 cp .vimrc ~/.vimrc
-cp -R .vim ~/.vim
 
 # Install vim-plug
 sudo apt-get install curl
