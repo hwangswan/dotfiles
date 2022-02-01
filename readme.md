@@ -3,7 +3,7 @@
 List of plugged-in plugin:
 - vim-airlines (statusbar)
 - fzf (fuzzyfinder)
-- papaya (color scheme)
+- sonokai (color scheme)
 
 ## Installation
 1. Run `install.sh`
