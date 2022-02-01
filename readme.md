@@ -3,6 +3,7 @@
 List of plugged-in plugin:
 - vim-airlines (statusbar)
 - fzf (fuzzyfinder)
+- vim-fugitive (git support)
 - sonokai (color scheme)
 
 ## Installation
@@ -15,3 +16,9 @@ List of plugged-in plugin:
 `:terminal` or `:term` would do the trick, but a horizontally splitted.
 
 To split vertically: `:vertical terminal`, or shorter, `:vert term`
+
+### Vim-fugitive
+- Checkout to a branch:
+```
+:Git checkout <branch_name>
+```

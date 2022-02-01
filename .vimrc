@@ -17,6 +17,9 @@ Plug 'junegunn/fzf.vim'
 " Colorscheme
 Plug 'sainnhe/sonokai'
 
+" Fugitive (git)
+Plug 'tpope/vim-fugitive'
+
 call plug#end()
 
 syntax on
