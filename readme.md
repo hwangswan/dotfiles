@@ -10,4 +10,6 @@ List of plugged-in plugin:
 
 ## Tips:
 ### Open terminal inside vim
-`:terminal` would do the trick
+`:terminal` or `:term` would do the trick, but a horizontally splitted.
+
+To split vertically: `:vertical terminal`, or shorter, `:vert term`
