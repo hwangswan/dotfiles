@@ -8,7 +8,6 @@ List of plugged-in plugin:
 
 ## Installation
 1. Run `install.sh`
-    - **Precaution**: this step will erase all previous styles.
 2. Enter vim, type `:PlugInstall` to install plugs!
 
 ## Tips:
@@ -22,3 +21,7 @@ To split vertically: `:vertical terminal`, or shorter, `:vert term`
 ```
 :Git checkout <branch_name>
 ```
+
+## Note:
+- If the installation works well, but the airline shape is still weird, try
+decreasing line width (terminal).
