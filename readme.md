@@ -1,4 +1,4 @@
-# my-vim-setup
+# vimrc - my vim setup
 
 List of plugged-in plugin:
 - vim-airlines (statusbar)
