@@ -5,6 +5,8 @@ List of plugged-in plugin:
 - fzf (fuzzyfinder)
 - vim-fugitive (git support)
 - sonokai (color scheme)
+- NERDTree (treeview for vim)
+- vim-devicons (icons)
 
 ## Installation
 1. Run `install.sh`
@@ -12,9 +14,9 @@ List of plugged-in plugin:
 
 ## Tips:
 ### Open terminal inside vim
-`:terminal` or `:term` would do the trick, but a horizontally splitted.
+`:terminal` or `:term` would do the trick, but horizontally splitted.
 
-To split vertically: `:vertical terminal`, or shorter, `:vert term`
+To split it vertically: `:vertical terminal`, or shorter, `:vert term`
 
 ### Vim-fugitive
 - Checkout to a branch:
@@ -25,3 +27,4 @@ To split vertically: `:vertical terminal`, or shorter, `:vert term`
 ## Note:
 - If the installation works well, but the airline shape is still weird, try
 decreasing line width (terminal).
+- Fonts are installed automatically, but remember to change the terminal font.
