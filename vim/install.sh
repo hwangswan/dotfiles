@@ -1,10 +1,11 @@
 #!/bin/bash
+sudo apt-get update && sudo apt-get upgrade
 
 # Copy new .vimrc
 cp .vimrc ~/.vimrc
 
 # Install vim-plug
-sudo apt-get install curl
+sudo apt-get install curl -y
 
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
@@ -13,10 +14,12 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
 sudo apt-get install vim-gtk
 
 # Installing powerline font for vim-airline
-sudo apt-get install fonts-powerline
+sudo apt-get install fonts-powerline -y
 
 # Install fonts for nerdtree
-sudo apt-get install unzip # for unzipping zip
+
+# for unzipping zip
+sudo apt-get install unzip -y
 
 curl -fLo ~/.fonts/RobotoMono.zip --create-dirs \
   https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/RobotoMono.zip
