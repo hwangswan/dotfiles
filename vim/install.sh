@@ -11,7 +11,7 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
 # For shortcut
-sudo apt-get install vim-gtk
+sudo apt-get install vim-gtk -y
 
 # Installing powerline font for vim-airline
 sudo apt-get install fonts-powerline -y
