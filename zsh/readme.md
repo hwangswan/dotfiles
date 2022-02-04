@@ -1,5 +1,8 @@
 # zsh configuration
 
+## Themes
+- passion
+
 ## Plugins included
 - git
 - python

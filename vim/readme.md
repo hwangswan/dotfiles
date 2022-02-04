@@ -14,19 +14,32 @@ List of plugged-in plugin:
 3. Done!
 
 ## Tips:
-### Moving windows around
+### Windows
+#### Moving windows around
 `ctrl` + `w` then `x` would rotates current window with the nearest window
 on the right.
 
-### Open terminal inside vim
+### Terminal inside vim
+#### Open
 `:terminal` or `:term` would do the trick, but horizontally splitted.
 
 To split it vertically: `:vertical terminal`, or shorter, `:vert term`
+
+#### Scrolling
+- Enable window mode: `ctrl` + `w`
+- Treating terminal as a normal vim window: `shift` + `N` (uppercase N).
+
+Now you can scrolling in the terminal.
 
 ### Vim-fugitive
 - Checkout to a branch:
 ```
 :Git checkout <branch_name>
+```
+
+- View things more fancy:
+```
+:Git
 ```
 
 ## Note:
