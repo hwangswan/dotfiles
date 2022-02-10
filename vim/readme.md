@@ -7,6 +7,7 @@ List of plugged-in plugin:
 - sonokai (color scheme)
 - NERDTree (treeview for vim)
 - vim-devicons (icons)
+- AutoComplPop (autocomplete)
 
 ## Installation
 1. Run `install.sh` (and yes, please `chmod` before do so).
