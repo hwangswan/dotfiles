@@ -46,6 +46,17 @@ nnoremap <S-Down> :m+<CR>
 inoremap <S-Up> <Esc>:m-2<CR>
 inoremap <S-Down> <Esc>:m+<CR>
 
+" Choosing complete menu item, with left and right key
+inoremap <expr> <Down> pumvisible() ? "<C-n>" : "<Down>"
+inoremap <expr> <Up> pumvisible() ? "<C-p>" : "<Up>"
+
+" Select the complete menu item like Ctrl-y would
+inoremap <expr> <Right> pumvisible() ? "<C-y>" : "<Right>"
+inoremap <expr> <CR> pumvisible() ? "<C-y>" : "<CR>"
+
+" Cancel the complete menu item like Ctrl-e would
+inoremap <expr> <Left> pumvisible() ? "<C-e>" : "<Left>"
+
 " Highlight current line in Insert mode only.
 autocmd InsertEnter * set cul
 autocmd InsertLeave * set nocul
@@ -130,3 +141,6 @@ set tabstop=2
 set softtabstop=2
 set shiftwidth=2
 set colorcolumn=80
+
+" Disable shortmessage on stausbar when completion show.
+set shortmess+=c
