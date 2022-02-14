@@ -54,9 +54,6 @@ inoremap <expr> <Up> pumvisible() ? "<C-p>" : "<Up>"
 inoremap <expr> <Right> pumvisible() ? "<C-y>" : "<Right>"
 inoremap <expr> <CR> pumvisible() ? "<C-y>" : "<CR>"
 
-" Cancel the complete menu item like Ctrl-e would
-inoremap <expr> <Left> pumvisible() ? "<C-e>" : "<Left>"
-
 " Highlight current line in Insert mode only.
 autocmd InsertEnter * set cul
 autocmd InsertLeave * set nocul
