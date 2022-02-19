@@ -7,7 +7,7 @@ List of plugged-in plugin:
 - sonokai (color scheme)
 - NERDTree (treeview for vim)
 - vim-devicons (icons)
-- AutoComplPop (autocomplete)
+- completor.vim (autocomplete)
 
 ## Installation
 1. Run `install.sh` (and yes, please `chmod` before do so).
@@ -31,6 +31,10 @@ To split it vertically: `:vertical terminal`, or shorter, `:vert term`
 - Treating terminal as a normal vim window: `shift` + `N` (uppercase N).
 
 Now you can scrolling in the terminal.
+
+### Autocomplete
+While typing, press `TAB` to display a list of autocomplete words. I don't
+want to have the autocomplete menu appears too often.
 
 ### Vim-fugitive
 - Checkout to a branch:
