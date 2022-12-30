@@ -26,5 +26,8 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM}/plugins
 curl -fLo ${ZSH_CUSTOM}/themes/passion.zsh-theme --create-dirs \
   https://raw.githubusercontent.com/ChesterYue/ohmyzsh-theme-passion/master/passion.zsh-theme
 
+# Install common theme
+wget -O $ZSH_CUSTOM/themes/common.zsh-theme https://raw.githubusercontent.com/jackharrisonsherlock/common/master/common.zsh-theme
+
 # Copy .zshrc
 cp .zshrc ~/.zshrc
