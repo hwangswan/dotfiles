@@ -2,6 +2,9 @@
 ## ibus-bamboo
 https://github.com/BambooEngine/ibus-bamboo
 
+## One-dark theme for gnome terminal
+https://github.com/denysdovhan/one-gnome-terminal
+
 ## old-dist
 Updating PPAs to old.ubuntu for update and installing new packages when your current dist is not supported anymore.
 
