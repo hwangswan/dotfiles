@@ -1,7 +1,8 @@
 # zsh configuration
 
 ## Themes
-- passion
+- [passion](https://github.com/ChesterYue/ohmyzsh-theme-passion)
+- [common](https://github.com/jackharrisonsherlock/common)
 
 ## Plugins included
 - git
