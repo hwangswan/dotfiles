@@ -23,3 +23,6 @@ Firefox `snap` does **not** support custom cursor. Uninstall snap version and us
 sudo snap remove firefox
 sudo apt-get install firefox
 ```
+
+## Backup / Restore GPG keys
+Follow the guide [here](https://www.howtogeek.com/816878/how-to-back-up-and-restore-gpg-keys-on-linux/)
