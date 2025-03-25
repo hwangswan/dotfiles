@@ -6,7 +6,7 @@ https://github.com/BambooEngine/ibus-bamboo
 https://github.com/denysdovhan/one-gnome-terminal
 
 ## old-dist
-Updating PPAs to old.ubuntu for update and installing new packages when your current dist is not supported anymore.
+Updating PPAs to `old.ubuntu` for update and installing new packages when your current dist is not supported anymore.
 
 ## Changing cursor
 - Cursor folder includes
@@ -20,7 +20,7 @@ Updating PPAs to old.ubuntu for update and installing new packages when your cur
 
 ## Removing firefox snap
 
-Firefox `snap` does **not** support custom cursor. Uninstall snap version and using `apt` version instead.
+Firefox `snap` that came pre-installed with Ubuntu (that is, a bloatware) is a complete PoS. Uninstall snap version and using `apt` version instead.
 ```
 sudo snap remove firefox
 sudo apt-get install firefox
