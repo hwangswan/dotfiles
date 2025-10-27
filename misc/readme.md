@@ -69,3 +69,8 @@ F12 -> Ctrl-F -> search for "slack://" and copy the link.
 
 ## Backup / Restore GPG keys
 Follow the guide [here](https://www.howtogeek.com/816878/how-to-back-up-and-restore-gpg-keys-on-linux/)
+
+## Backup editor server
+```
+bash backup_server.sh
+```
